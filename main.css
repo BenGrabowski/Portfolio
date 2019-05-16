@@ -4,7 +4,7 @@
 
 body {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
 }
 
 nav {
@@ -12,42 +12,59 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(100, 100, 100, 1);
+    background: rgba(40, 40, 40, .95);
     height: 60px;
+    border-bottom: 1px solid white;
 }
 
 li {
     display: inline;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     color: white;
 }
 
 header {
     padding: 15% 0;
-    background-image: url(images/hero-option-2.jpg);
+    background-image: url(images/hero-image4.jpg);
     width: 100%;
     color: white;
+    height: 600px;
 }
 
 h1 {
-    padding: 0 20px;
+    padding: 0 100px;
+    /* font-family:'Inconsolata', monospace; */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
 }
 
 a {
     color: white;
     text-decoration: none;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+a:hover {
+     text-decoration: underline;
 }
 
 section {
     min-height: 300px;
 }
 
-.about-me {
+p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+#about-me {
     padding: 10%;
 }
 
-.projects, .contact {
+#projects, #contact {
     font-size: 30px;
     padding: 10%;
 }
@@ -61,6 +78,34 @@ footer {
     background: rgba(100, 100, 100, 1);
     color: white;
     padding: 15px;
+  }
+
+  @media screen and (max-width: 550px) {
+      li {
+          display: block;
+          padding: 2px;
+      }
+
+      a {
+          font-size: 16px;
+      }
+
+      ul {
+          margin-top: 3px;
+      }
+
+      h1 {
+          font-size: 24px;
+          padding: 0 30px;
+      }
+
+      nav {
+          height: 75px;
+      }
+
+      header {
+          height: 400px;
+      }
   }
 
 
