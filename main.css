@@ -25,16 +25,16 @@ li {
 }
 
 header {
-    padding: 15% 0;
     background-image: url(images/hero-image4.jpg);
     width: 100%;
     color: white;
     height: 600px;
+    display: flex;
+    align-items: center;
 }
 
 h1 {
     padding: 0 100px;
-    /* font-family:'Inconsolata', monospace; */
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
 }
@@ -42,7 +42,6 @@ h1 {
 a {
     color: white;
     text-decoration: none;
-    /* font-family: 'Courier New', Courier, monospace; */
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
@@ -51,27 +50,52 @@ a:hover {
      text-decoration: underline;
 }
 
-section {
-    min-height: 300px;
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(50, 78, 99);
+    /* max-height: 500px; */
+    border: 2px solid white;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
-    line-height: 1.6;
+    line-height: 1.8;
+    font-size: 18px;
+    color: white;
 }
 
-#about-me {
-    padding: 10%;
+#bio {
+    text-align: left;
+    padding-left: 50px;
+    max-width: 700px;
 }
 
 #projects, #contact {
     font-size: 30px;
-    padding: 10%;
+    padding: 5%;
 }
 
-section:nth-child(even) {
-    background-color: #ddd;
-  }
+#project-contact {
+    display: flex;
+    align-items: center;
+    /* padding: 5%; */
+}
+
+#projects {
+    /* margin: 40px; */
+}
+
+#contact {
+    /* margin-right: 40px; */
+}
+
+.icon {
+    border-style: solid;
+    border-color: white;
+    width: 300px;
+}
 
 footer {
     min-height: 50px;
@@ -80,6 +104,44 @@ footer {
     padding: 15px;
   }
 
+  
+  @media screen and (max-width: 1200px) {
+    main {
+        flex-direction: column;
+        align-items: inherit;
+    }
+
+    #project-contact {
+        flex-direction: column;
+        padding: none;
+    }
+
+    section:nth-child(even) {
+        background-color: #ddd;
+      }
+
+      #about-me {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 350px;
+      }
+
+      #projects {
+          width: 100%;
+          background: rgba(40, 40, 40, 1);
+      }
+
+      #contact {
+          width: 100%;
+      }
+      
+      #bio {
+          text-align: center;
+      }
+
+  }
+  
   @media screen and (max-width: 550px) {
       li {
           display: block;

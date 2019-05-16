@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ben Grabowski | Portfolio</title>
-    <link href="main.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link href="main.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat" rel="stylesheet">
 </head>
 <body>
@@ -20,18 +20,28 @@
     <header role="banner">
         <h1>Hi I’m Ben, Web Developer & JavaScript enthusiast. Nice to meet you!</h1>
     </header>
-
+    
+    <main>
     <section id="about-me">
-        <p>I’m in Denver, Colorado currently studying under the Bloc Web Developer Track. 
+        <p id="bio">I’m in Denver, Colorado currently studying under the Bloc Web Developer Track. 
             My passion for coding comes from the satisfaction I get from solving challenging 
             problems and the ability to create something out of nothing. I enjoy studying 
             JavaScript and creating sleek web applications. Outside of technology, 
             I enjoy golf, craft beer, and live music.</p>
     </section>
 
-    <section id="projects"><p>Projects</p></section>
-
-    <section id="contact"><p>Contact</p></section>
+    <div id="project-contact">
+    <section id="projects">
+        <img src="images/projects-icon.jpg" alt="golf quiz app home page" class="icon">
+        <p>Projects</p>
+    </section>
+    
+    <section id="contact">
+        <img src="images/contact-icon.jpg" alt="old cell phones" class="icon">
+        <p>Contact</p>
+    </section>
+    </div>
+    </main>
 
     <footer role="contentinfo">Footer</footer>
 </body>
