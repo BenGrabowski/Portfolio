@@ -2,9 +2,13 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     text-align: center;
-    /* font-family: 'Courier New', Courier, monospace; */
+    height: 100%;
 }
 
 nav {
@@ -31,6 +35,7 @@ header {
     height: 600px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -55,8 +60,7 @@ main {
     align-items: center;
     justify-content: space-evenly;
     background: rgb(50, 78, 99);
-    /* max-height: 500px; */
-    border: 2px solid white;
+    min-height: 300px;
 }
 
 p {
@@ -75,35 +79,156 @@ p {
 #projects, #contact {
     font-size: 30px;
     padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #project-contact {
     display: flex;
     align-items: center;
-    /* padding: 5%; */
-}
-
-#projects {
-    /* margin: 40px; */
-}
-
-#contact {
-    /* margin-right: 40px; */
 }
 
 .icon {
-    border-style: solid;
-    border-color: white;
+    /* border-style: solid;
+    border-color: white; */
     width: 300px;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    background: rgba(100, 100, 100, 1);
+    border: 2px solid white;
+    color: white;
+    /* border-radius: 8px; */
+}
+
+button:hover {
+    cursor: pointer;
+    background: white;
+    color: rgba(100, 100, 100, 1);
+}
+
+.project-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-image {
+    width: 500px;
+    margin: 20px;
+}
+
+.js-project-container {
+    margin-top: 60px;
+    background: rgba(100, 100, 100, 1);
+}
+
+.project-title {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.description {
+    max-width: 600px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.tech-header {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+section.technology {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.tech-wrap {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 180px;
+}
+
+.project-links > a {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.project-links > a:hover {
+    text-decoration: none;
+}
+
+.project-links > span {
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+    /* margin-left: 5px;
+    margin-right: 3px; */
+}
+
+.tech-logo {
+    width: 25px;
+}
+
+.tech-name {
+    padding-left: 5px;
+}
+
+.js-contact-container {
+    background: rgba(100,100,100,1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-div {
+    margin-top: 60px;
+    height: 100%;
+}
+
+.contact-image {
+    width: 500px;
+}
+
+.contact-description {
+    max-width: 600px;
 }
 
 footer {
     min-height: 50px;
-    background: rgba(100, 100, 100, 1);
+    background: rgba(40, 40, 40, 1);
     color: white;
     padding: 15px;
+    border-top: 1px solid white;
+    font-family: 'Montserrat', sans-serif;
   }
 
+  /* START OF MEDIA QUERIES START OF MEDIA QUERIES START OF MEDIA QUERIES START OF MEDIA QUERIES */
   
   @media screen and (max-width: 1200px) {
     main {
@@ -116,9 +241,9 @@ footer {
         padding: none;
     }
 
-    section:nth-child(even) {
+    /* section:nth-child(even) {
         background-color: #ddd;
-      }
+      } */
 
       #about-me {
           display: flex;
@@ -129,15 +254,31 @@ footer {
 
       #projects {
           width: 100%;
-          background: rgba(40, 40, 40, 1);
+          /* background: rgba(40, 40, 40, 1); */
       }
 
       #contact {
           width: 100%;
       }
+
+      #projects, #contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
       
       #bio {
           text-align: center;
+          padding: 0 25px;
+      }
+
+      #contact img {
+          border-color: black;
+      }
+
+      button:hover{
+          background: white;
+          color: rgba(60, 60, 60, 1);
       }
 
   }

@@ -11,12 +11,16 @@
 <body>
     <nav role="navigation">
         <ul class="nav-links">
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about-me" class="about-me">About Me</a></li>
+            <li><a href="#projects" class="js-projects">Projects</a></li>
+            <li><a href="#contact" class="js-contact">Contact</a></li>
         </ul>
     </nav>
 
+    <div class="js-project-container"></div>
+    <div class="js-contact-container"></div>
+
+    <div class="home-wrapper">
     <header role="banner">
         <h1>Hi I’m Ben, Web Developer & JavaScript enthusiast. Nice to meet you!</h1>
     </header>
@@ -33,16 +37,24 @@
     <div id="project-contact">
     <section id="projects">
         <img src="images/projects-icon.jpg" alt="golf quiz app home page" class="icon">
-        <p>Projects</p>
+        <button class="js-projects">Projects</button>
     </section>
     
     <section id="contact">
         <img src="images/contact-icon.jpg" alt="old cell phones" class="icon">
-        <p>Contact</p>
+        <button class="js-contact">Contact</button>
     </section>
     </div>
+    
+    
     </main>
+    </div>
 
-    <footer role="contentinfo">Footer</footer>
+    <footer role="contentinfo">&copy; Ben Grabowski 2019</footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.js"
+      integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+      crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
