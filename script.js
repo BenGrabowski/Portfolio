@@ -5,6 +5,7 @@ $('.js-projects').on('click', function() {
     $('.js-contact-container').hide();
     renderProjects();
     $('.js-project-container').show();
+    $('.js-project-container').toggleClass('height-100');
 });
 
 function renderProjects(){
@@ -47,6 +48,7 @@ $('.js-contact').on('click', function(){
     $('.js-project-container').hide();
     renderContact();
     $('.js-contact-container').show();
+    $('.js-contact-container').toggleClass('height-100');
 });
 
 function renderContact(){

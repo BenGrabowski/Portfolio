@@ -16,7 +16,7 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(40, 40, 40, .95);
+    background: rgba(10, 10, 10, 1);
     height: 60px;
     border-bottom: 1px solid white;
 }
@@ -29,7 +29,9 @@ li {
 }
 
 header {
-    background-image: url(images/hero-image4.jpg);
+    /* background-image: url(images/hero-image4.jpg); */
+    background: url(images/hero-image4.jpg) no-repeat center center fixed;
+    background-size: cover;
     width: 100%;
     color: white;
     height: 600px;
@@ -59,7 +61,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background: rgb(50, 78, 99);
+    /* background: rgb(50, 78, 99); */
+    background: url(images/background-image8.jpg);
     min-height: 300px;
 }
 
@@ -96,15 +99,16 @@ p {
 }
 
 button {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
     font-weight: bold;
     text-transform: uppercase;
     width: 150px;
     height: 40px;
     margin-top: 10px;
-    background: rgba(100, 100, 100, 1);
-    border: 2px solid white;
+    background: rgba(40, 40, 40, 1);
+    border: 1px solid white;
     color: white;
     /* border-radius: 8px; */
 }
@@ -112,7 +116,7 @@ button {
 button:hover {
     cursor: pointer;
     background: white;
-    color: rgba(100, 100, 100, 1);
+    color: rgba(40, 40, 40, 1);
 }
 
 .project-div {
@@ -128,7 +132,11 @@ button:hover {
 
 .js-project-container {
     margin-top: 60px;
-    background: rgba(100, 100, 100, 1);
+    background: url(images/background-image8.jpg);
+}
+
+.height-100 {
+    height: 100%;
 }
 
 .project-title {
@@ -175,11 +183,11 @@ section.technology {
 
 .project-links > a {
     font-size: 18px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .project-links > a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .project-links > span {
@@ -199,7 +207,7 @@ section.technology {
 }
 
 .js-contact-container {
-    background: rgba(100,100,100,1);
+    background: url(images/background-image8.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
