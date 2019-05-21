@@ -1,3 +1,12 @@
+//When page loads, hide project & contact containers
+
+$(hideProjectContact);
+
+function hideProjectContact(){
+    $('.js-project-container').hide();
+    $('.js-contact-container').hide();
+}
+
 //When user clicks the Projects button, replace main content with projects
 
 $('.js-projects').on('click', function() {
@@ -5,7 +14,6 @@ $('.js-projects').on('click', function() {
     $('.js-contact-container').hide();
     renderProjects();
     $('.js-project-container').show();
-    $('.js-project-container').toggleClass('height-100');
 });
 
 function renderProjects(){
