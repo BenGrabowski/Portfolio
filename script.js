@@ -14,6 +14,7 @@ $('.js-projects').on('click', function() {
     $('.js-contact-container').hide();
     renderProjects();
     $('.js-project-container').show();
+    $('html,body').scrollTop(0);
 });
 
 function renderProjects(){
@@ -57,6 +58,7 @@ $('.js-contact').on('click', function(){
     renderContact();
     $('.js-contact-container').show();
     $('.js-contact-container').toggleClass('height-100');
+    $('html,body').scrollTop(0);
 });
 
 function renderContact(){
@@ -66,10 +68,10 @@ function renderContact(){
     <img src="images/cell-phones.jpg" alt="pile of old cell phones" class="contact-image">
     <p class="contact-description">If you'd like to know more about me or my experience with Web Development, you can reach me at the following.</p>
     
-    <p><a href="mailto:gbowski30@gmail.com">gbowski30@gmail.com</a></p>
+    <p><a href="mailto:gbowski30@gmail.com" target="_blank">gbowski30@gmail.com</a></p>
     <p>Phone: (763)-258-9699</p>
-    <p><a href="https://www.linkedin.com/in/bengrabowski/">LinkedIn</a></p>
-    <p><a href="https://github.com/BenGrabowski">GitHub</a></p>
+    <p><a href="https://www.linkedin.com/in/bengrabowski/" target="_blank">LinkedIn</a></p>
+    <p><a href="https://github.com/BenGrabowski" target="_blank">GitHub</a></p>
     </div>`
 
     $('.js-contact-container').html(contactDiv);
