@@ -18,57 +18,87 @@ $('.js-projects').on('click', function() {
 });
 
 function renderProjects(){
-    let projectDiv = `<div class="project-div">
+    let projectDiv = 
+    `<div class="project-div">
     
-    <h2 class="project-title">Golf Quiz</h2>
+        <h2 class="project-title">FavorEat</h2>
+            
+        <div class="project-image-wrapper">
+            <img src="images/favoreat-home.png" alt="FavorEat home screen" class="project-image">
+            <img src="images/favoreat-places.png" alt="FavorEat places list screen" class="project-image">
+        </div>
+
+        <p class="description">
+            Full-stack web application that allows users to create an account and 
+            add their favorite restaurants, bars, breweries, and more.
+        </p>
+
+        <div class="project-links">
+            <a href="https://github.com/BenGrabowski/favoreat" target="_blank">GitHub</a><span>|</span>
+            <a href="https://favoreat.now.sh/" target="_blank">Demo</a>
+        </div>
+        
+        <section class="technology">
+            <h3 class="tech-header">Technologies Used:</h3>
+            <div class="tech-wrap">
+                <div class="tech"><img src="images/react.png" class="tech-logo"><span class="tech-name">React.js</span></div>
+                <div class="tech"><img src="images/node.png" class="tech-logo"><span class="tech-name">Node.js</span></div>
+                <div class="tech"><img src="images/postgres.png" class="tech-logo"><span class="tech-name">PostgreSQL</span></div>
+                <div class="tech"><img src="images/CSS3_logo.png" class="tech-logo"><span class="tech-name">CSS</span></div>
+            </div>
+        </section>
     
-    <div class="project-image-wrapper">
-    <img src="images/quiz-app-home.jpg" alt="quiz app home screen" class="project-image">
-    <img src="images/quiz-app-question.jpg" alt="quiz app question" class="project-image">
-    </div>
+        <h2 class="project-title">Go 2 Show</h2>
+            
+        <div class="project-image-wrapper">
+            <img src="images/Home-Screen.jpg" alt="Go 2 Show home screen" class="project-image">
+            <img src="images/Results-YouTube-Map.jpg" alt="Go 2 Show content screen" class="project-image">
+        </div>
 
-    <p class="description">Simple and entertaining quiz that tests users’ knowledge about the great game of golf. 
-    You might even learn something new.
-    </p>
+        <p class="description">Web based application that uses SongKick, Youtube, and Google Maps APIs 
+        to help users discover upcoming live music events.
+        </p>
 
-    <div class="project-links">
-    <a href="https://github.com/BenGrabowski/Quiz-App" target="_blank">GitHub</a><span>|</span>
-    <a href="https://bengrabowski.github.io/Quiz-App/" target="_blank">Demo</a>
-    </div>
+        <div class="project-links">
+            <a href="https://github.com/BenGrabowski/Go-2-Show" target="_blank">GitHub</a><span>|</span>
+            <a href="https://bengrabowski.github.io/Go-2-Show/" target="_blank">Demo</a>
+        </div>
+        
+        <section class="technology">
+            <h3 class="tech-header">Technologies Used:</h3>
+            <div class="tech-wrap">
+                <div class="tech"><img src="images/html5-white.png" class="tech-logo"><span class="tech-name">HTML</span></div>
+                <div class="tech"><img src="images/CSS3_logo.png" class="tech-logo"><span class="tech-name">CSS</span></div>
+                <div class="tech"><img src="images/js.jpg" class="tech-logo"><span class="tech-name">JavaScript</span></div>
+            </div>
+        </section>
     
-    <section class="technology">
-    <h3 class="tech-header">Technologies Used:</h3>
-    <div class="tech-wrap">
-        <div><img src="images/html5-white.png" class="tech-logo"><span class="tech-name">HTML</span></div>
-        <div><img src="images/CSS3_logo.png" class="tech-logo"><span class="tech-name">CSS</span></div>
-        <div><img src="images/js.jpg" class="tech-logo"><span class="tech-name">JavaScript</span></div>
-    </div>
-    </section>
+        <h2 class="project-title">Golf Quiz</h2>
+        
+        <div class="project-image-wrapper">
+            <img src="images/quiz-app-home.jpg" alt="quiz app home screen" class="project-image">
+            <img src="images/quiz-app-question.jpg" alt="quiz app question" class="project-image">
+        </div>
 
-    <h2 class="project-title">Go 2 Show</h2>
-    
-    <div class="project-image-wrapper">
-    <img src="images/Home-Screen.jpg" alt="Go 2 Show home screen" class="project-image">
-    <img src="images/Results-YouTube-Map.jpg" alt="Go 2 Show content screen" class="project-image">
-    </div>
+        <p class="description">Simple and entertaining quiz that tests users’ knowledge about the great game of golf. 
+        You might even learn something new.
+        </p>
 
-    <p class="description">Web based application that uses SongKick, Youtube, and Google Maps APIs 
-    to help users discover upcoming live music events.
-    </p>
+        <div class="project-links">
+            <a href="https://github.com/BenGrabowski/Quiz-App" target="_blank">GitHub</a><span>|</span>
+            <a href="https://bengrabowski.github.io/Quiz-App/" target="_blank">Demo</a>
+        </div>
+        
+        <section class="technology">
+            <h3 class="tech-header">Technologies Used:</h3>
+            <div class="tech-wrap">
+                <div class="tech"><img src="images/html5-white.png" class="tech-logo"><span class="tech-name">HTML</span></div>
+                <div class="tech"><img src="images/CSS3_logo.png" class="tech-logo"><span class="tech-name">CSS</span></div>
+                <div class="tech"><img src="images/js.jpg" class="tech-logo"><span class="tech-name">JavaScript</span></div>
+            </div>
+        </section>
 
-    <div class="project-links">
-    <a href="https://github.com/BenGrabowski/Go-2-Show" target="_blank">GitHub</a><span>|</span>
-    <a href="https://bengrabowski.github.io/Go-2-Show/" target="_blank">Demo</a>
-    </div>
-    
-    <section class="technology">
-    <h3 class="tech-header">Technologies Used:</h3>
-    <div class="tech-wrap">
-        <div><img src="images/html5-white.png" class="tech-logo"><span class="tech-name">HTML</span></div>
-        <div><img src="images/CSS3_logo.png" class="tech-logo"><span class="tech-name">CSS</span></div>
-        <div><img src="images/js.jpg" class="tech-logo"><span class="tech-name">JavaScript</span></div>
-    </div>
-    </section>
+       
     </div>`;
 
     $('.js-project-container').html(projectDiv);
