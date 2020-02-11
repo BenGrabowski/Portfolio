@@ -21,6 +21,34 @@ function renderProjects(){
     let projectDiv = 
     `<div class="project-div">
     
+        <h2 class="project-title">PlanIt</h2>
+            
+        <div class="project-image-wrapper">
+            <img src="images/planit-home.jpg" alt="PlanIt home screen" class="project-image">
+            <img src="images/planit-event-page.jpg" alt="PlanIt Event Page" class="project-image">
+        </div>
+
+        <p class="description">
+            PlanIt is a full-stack web based application that allows users to create an account and plan events like Weddings, 
+            Bachelor Parties, and more
+        </p>
+
+        <div class="project-links">
+            <a href="https://github.com/BenGrabowski/plan-it" target="_blank">GitHub</a><span>|</span>
+            <a href="https://plan-it.now.sh/" target="_blank">Demo</a>
+        </div>
+        
+        <section class="technology">
+            <h3 class="tech-header">Technologies Used:</h3>
+            <div class="tech-wrap">
+                <i class="fab fa-react"></i>
+                <div class="tech"><img src="images/react.png" class="tech-logo"><span class="tech-name">React.js</span></div>
+                <div class="tech"><img src="images/node.png" class="tech-logo"><span class="tech-name">Node.js</span></div>
+                <div class="tech"><img src="images/postgres.png" class="tech-logo"><span class="tech-name">PostgreSQL</span></div>
+                <div class="tech"><img src="images/CSS3_logo.png" class="tech-logo"><span class="tech-name">CSS</span></div>
+            </div>
+        </section>
+    
         <h2 class="project-title">FavorEat</h2>
             
         <div class="project-image-wrapper">
@@ -73,32 +101,6 @@ function renderProjects(){
             </div>
         </section>
     
-        <h2 class="project-title">Golf Quiz</h2>
-        
-        <div class="project-image-wrapper">
-            <img src="images/quiz-app-home.jpg" alt="quiz app home screen" class="project-image">
-            <img src="images/quiz-app-question.jpg" alt="quiz app question" class="project-image">
-        </div>
-
-        <p class="description">Simple and entertaining quiz that tests users’ knowledge about the great game of golf. 
-        You might even learn something new.
-        </p>
-
-        <div class="project-links">
-            <a href="https://github.com/BenGrabowski/Quiz-App" target="_blank">GitHub</a><span>|</span>
-            <a href="https://bengrabowski.github.io/Quiz-App/" target="_blank">Demo</a>
-        </div>
-        
-        <section class="technology">
-            <h3 class="tech-header">Technologies Used:</h3>
-            <div class="tech-wrap">
-                <div class="tech"><img src="images/html5-white.png" class="tech-logo"><span class="tech-name">HTML</span></div>
-                <div class="tech"><img src="images/CSS3_logo.png" class="tech-logo"><span class="tech-name">CSS</span></div>
-                <div class="tech"><img src="images/js.jpg" class="tech-logo"><span class="tech-name">JavaScript</span></div>
-            </div>
-        </section>
-
-       
     </div>`;
 
     $('.js-project-container').html(projectDiv);

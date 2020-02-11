@@ -130,6 +130,7 @@ button:hover {
 
 .project-image {
     width: 500px;
+    height: 400px;
     margin: 20px;
 }
 
@@ -181,7 +182,7 @@ section.technology {
     justify-content: space-between;
     align-items: flex-end;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     margin-top: 20px;
 }
 
@@ -257,6 +258,10 @@ footer {
     border-top: 1px solid white;
     font-family: 'Montserrat', sans-serif;
     margin-top: 25px;
+  }
+
+  .fab {
+      font-size: 18px;
   }
 
   /* START OF MEDIA QUERIES START OF MEDIA QUERIES START OF MEDIA QUERIES START OF MEDIA QUERIES */
