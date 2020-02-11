@@ -51,10 +51,13 @@ a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    transition: all .5s ease;
 }
 
 a:hover {
-     text-decoration: underline;
+     /* text-decoration: underline; */
+     color: rgb(30, 206, 212);
+     transform: color;
 }
 
 main {
@@ -124,7 +127,8 @@ button:hover {
     margin-top: 40px;
     font-size: 40px;
     border: 3px solid white;
-    padding: 10px;
+    /* padding: 10px; */
+    padding: 10px 20px;
     background: rgba(40, 40, 40, 1);
 }
 
@@ -146,7 +150,8 @@ button:hover {
 
 .project-title {
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Roboto Mono', monospace;
     font-weight: 600;
 }
 
@@ -183,6 +188,7 @@ section.technology {
     align-items: flex-end;
     color: white;
     /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Roboto Mono', monospace;
     margin-top: 20px;
 }
 
@@ -261,7 +267,7 @@ footer {
   }
 
   .fab {
-      font-size: 18px;
+      font-size: 26px;
   }
 
   /* START OF MEDIA QUERIES START OF MEDIA QUERIES START OF MEDIA QUERIES START OF MEDIA QUERIES */

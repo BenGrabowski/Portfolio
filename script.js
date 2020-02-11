@@ -29,8 +29,9 @@ function renderProjects(){
         </div>
 
         <p class="description">
-            PlanIt is a full-stack web based application that allows users to create an account and plan events like Weddings, 
-            Bachelor Parties, and more
+            PlanIt is a full-stack application that allows users to create an account and plan events like Weddings and Bachelor
+            Parties. I came up with the idea for this app while going through the process of planning my own Wedding and realizing how many
+            different things need to be considered and how important organization is. 
         </p>
 
         <div class="project-links">
@@ -41,11 +42,10 @@ function renderProjects(){
         <section class="technology">
             <h3 class="tech-header">Technologies Used:</h3>
             <div class="tech-wrap">
-                <i class="fab fa-react"></i>
-                <div class="tech"><img src="images/react.png" class="tech-logo"><span class="tech-name">React.js</span></div>
-                <div class="tech"><img src="images/node.png" class="tech-logo"><span class="tech-name">Node.js</span></div>
+                <div class="tech"><i class="fab fa-react"></i><span class="tech-name">React.js</span></div>
+                <div class="tech"><i class="fab fa-node-js"></i><span class="tech-name">Node.js</span></div>
                 <div class="tech"><img src="images/postgres.png" class="tech-logo"><span class="tech-name">PostgreSQL</span></div>
-                <div class="tech"><img src="images/CSS3_logo.png" class="tech-logo"><span class="tech-name">CSS</span></div>
+                <div class="tech"><i class="fab fa-css3"></i><span class="tech-name">CSS</span></div>
             </div>
         </section>
     
@@ -57,8 +57,9 @@ function renderProjects(){
         </div>
 
         <p class="description">
-            Full-stack web application that allows users to create an account and 
-            add their favorite restaurants, bars, breweries, and more.
+            FavorEat is a full-stack application that allows users to create an account and 
+            add their favorite restaurants, bars, breweries, and more. I came up with the idea because there are so many great places
+            to eat and drink at in Denver and it can be hard to remember all of my favorites. 
         </p>
 
         <div class="project-links">
@@ -69,10 +70,10 @@ function renderProjects(){
         <section class="technology">
             <h3 class="tech-header">Technologies Used:</h3>
             <div class="tech-wrap">
-                <div class="tech"><img src="images/react.png" class="tech-logo"><span class="tech-name">React.js</span></div>
-                <div class="tech"><img src="images/node.png" class="tech-logo"><span class="tech-name">Node.js</span></div>
+                <div class="tech"><i class="fab fa-react"></i><span class="tech-name">React.js</span></div>
+                <div class="tech"><i class="fab fa-node-js"></i><span class="tech-name">Node.js</span></div>
                 <div class="tech"><img src="images/postgres.png" class="tech-logo"><span class="tech-name">PostgreSQL</span></div>
-                <div class="tech"><img src="images/CSS3_logo.png" class="tech-logo"><span class="tech-name">CSS</span></div>
+                <div class="tech"><i class="fab fa-css3"></i><span class="tech-name">CSS</span></div>
             </div>
         </section>
     
@@ -83,8 +84,9 @@ function renderProjects(){
             <img src="images/Results-YouTube-Map.jpg" alt="Go 2 Show content screen" class="project-image">
         </div>
 
-        <p class="description">Web based application that uses SongKick, Youtube, and Google Maps APIs 
-        to help users discover upcoming live music events.
+        <p class="description">Go 2 Show is a web based application that uses SongKick, Youtube, and Google Maps APIs 
+        to help users discover upcoming live music events. I created this app because I love live music and discovering new artists and
+        venues to check out.
         </p>
 
         <div class="project-links">
@@ -95,9 +97,9 @@ function renderProjects(){
         <section class="technology">
             <h3 class="tech-header">Technologies Used:</h3>
             <div class="tech-wrap">
-                <div class="tech"><img src="images/html5-white.png" class="tech-logo"><span class="tech-name">HTML</span></div>
-                <div class="tech"><img src="images/CSS3_logo.png" class="tech-logo"><span class="tech-name">CSS</span></div>
-                <div class="tech"><img src="images/js.jpg" class="tech-logo"><span class="tech-name">JavaScript</span></div>
+                <div class="tech"><i class="fab fa-html5"></i><span class="tech-name">HTML</span></div>
+                <div class="tech"><i class="fab fa-css3"></i><span class="tech-name">CSS</span></div>
+                <div class="tech"><i class="fab fa-js"></i><span class="tech-name">JavaScript</span></div>
             </div>
         </section>
     
