@@ -106,7 +106,6 @@ function renderProjects(){
     </div>`;
 
     $('.js-project-container').html(projectDiv);
-    console.log("renderProjects ran");
 }
 
 //When user clicks on contact, display contact div
