@@ -348,6 +348,7 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        padding-left: 0px;
       }
 
       header {
